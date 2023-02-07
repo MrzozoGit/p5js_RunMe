@@ -14,6 +14,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: white;
+    cursor: url('https://alexsounalet.com/assets/img/arrow.cur'), default;
 }
 
 main {
@@ -27,4 +28,11 @@ main {
 p {
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+.note {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 5px;
 }
